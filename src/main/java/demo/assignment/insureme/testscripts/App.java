@@ -23,7 +23,7 @@ public class App
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);
-		driver.get("http://localhost:8081/contact.html");
+		driver.get("http://3.14.248.175:8081/contact.html");
 		// invoke implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
 
