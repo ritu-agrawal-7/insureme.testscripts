@@ -97,7 +97,7 @@
 	      <configuration>
 	        <archive>
 	          <manifest>
-	            <mainClass>org.test.my_app_test.App</mainClass>
+	            <mainClass>demo.assignment.insureme.testscripts.App</mainClass>
 	          </manifest>
 	        </archive>
 	        <descriptorRefs>
